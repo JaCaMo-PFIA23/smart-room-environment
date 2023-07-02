@@ -1,0 +1,7 @@
+mas smart_room_environment {
+
+  workspace room {
+    artifact hvac: devices.HVAC(30) 
+  }
+
+}
