@@ -10,7 +10,7 @@ public class HVAC extends Artifact {
   private double temperature;
 
   void init(double temp) {
-    defineObsProperty("state", "on");
+    defineObsProperty("state", "off");
     defineObsProperty("temperature", this.temperature);
     log("Temperature: " + getObsProperty("temperature").doubleValue());
   }
